@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignupForm));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -62,10 +63,10 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.ForeColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(615, 39);
+            this.guna2Panel1.Size = new System.Drawing.Size(820, 48);
             this.guna2Panel1.TabIndex = 15;
             // 
             // guna2ImageButton2
@@ -73,33 +74,35 @@
             this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
             this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
             this.guna2ImageButton2.Image = global::Translatify1.Properties.Resources.mingcute_minimize_fill1;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(552, 11);
-            this.guna2ImageButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(736, 14);
+            this.guna2ImageButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
             this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(19, 20);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(25, 25);
             this.guna2ImageButton2.TabIndex = 1;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
             // guna2ImageButton1
             // 
             this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.Image = global::Translatify1.Properties.Resources.mingcute_close_fill1;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(585, 11);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(780, 14);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(19, 20);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(25, 25);
             this.guna2ImageButton1.TabIndex = 0;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::Translatify1.Properties.Resources.Frame_1;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(205, 539);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(273, 663);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 21;
             this.guna2PictureBox1.TabStop = false;
@@ -108,10 +111,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(305, 66);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(407, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 30);
+            this.label3.Size = new System.Drawing.Size(251, 38);
             this.label3.TabIndex = 30;
             this.label3.Text = "Make An Account";
             // 
@@ -121,11 +123,11 @@
             this.eye.CheckedState.Parent = this.eye;
             this.eye.HoverState.Parent = this.eye;
             this.eye.Image = global::Translatify1.Properties.Resources.Invisible;
-            this.eye.Location = new System.Drawing.Point(535, 238);
-            this.eye.Margin = new System.Windows.Forms.Padding(2);
+            this.eye.Location = new System.Drawing.Point(713, 293);
+            this.eye.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.eye.Name = "eye";
             this.eye.PressedState.Parent = this.eye;
-            this.eye.Size = new System.Drawing.Size(26, 20);
+            this.eye.Size = new System.Drawing.Size(35, 25);
             this.eye.TabIndex = 29;
             this.eye.CheckedChanged += new System.EventHandler(this.eye_CheckedChanged);
             // 
@@ -138,14 +140,14 @@
             this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.HoverState.Parent = this.LoginBtn;
-            this.LoginBtn.Location = new System.Drawing.Point(324, 382);
-            this.LoginBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.LoginBtn.Location = new System.Drawing.Point(432, 470);
+            this.LoginBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.ShadowDecoration.BorderRadius = 15;
             this.LoginBtn.ShadowDecoration.Enabled = true;
             this.LoginBtn.ShadowDecoration.Parent = this.LoginBtn;
             this.LoginBtn.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 5, 5);
-            this.LoginBtn.Size = new System.Drawing.Size(153, 42);
+            this.LoginBtn.Size = new System.Drawing.Size(204, 52);
             this.LoginBtn.TabIndex = 28;
             this.LoginBtn.Text = "Signup";
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
@@ -155,10 +157,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(258, 204);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(344, 251);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.Size = new System.Drawing.Size(92, 25);
             this.label2.TabIndex = 27;
             this.label2.Text = "Password";
             // 
@@ -167,10 +168,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(258, 133);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(344, 164);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 20);
+            this.label1.Size = new System.Drawing.Size(97, 25);
             this.label1.TabIndex = 26;
             this.label1.Text = "Username";
             // 
@@ -193,7 +193,8 @@
             this.passTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.passTxt.HoverState.Parent = this.passTxt;
             this.passTxt.IconRightSize = new System.Drawing.Size(30, 30);
-            this.passTxt.Location = new System.Drawing.Point(262, 227);
+            this.passTxt.Location = new System.Drawing.Point(349, 279);
+            this.passTxt.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.passTxt.Name = "passTxt";
             this.passTxt.PasswordChar = '\0';
             this.passTxt.PlaceholderText = "";
@@ -202,7 +203,7 @@
             this.passTxt.ShadowDecoration.Enabled = true;
             this.passTxt.ShadowDecoration.Parent = this.passTxt;
             this.passTxt.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 7, 7);
-            this.passTxt.Size = new System.Drawing.Size(268, 41);
+            this.passTxt.Size = new System.Drawing.Size(357, 50);
             this.passTxt.TabIndex = 25;
             this.passTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passTxt_KeyDown);
             // 
@@ -224,7 +225,8 @@
             this.userTxt.ForeColor = System.Drawing.Color.Black;
             this.userTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.userTxt.HoverState.Parent = this.userTxt;
-            this.userTxt.Location = new System.Drawing.Point(262, 156);
+            this.userTxt.Location = new System.Drawing.Point(349, 192);
+            this.userTxt.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.userTxt.Name = "userTxt";
             this.userTxt.PasswordChar = '\0';
             this.userTxt.PlaceholderText = "";
@@ -233,7 +235,7 @@
             this.userTxt.ShadowDecoration.Enabled = true;
             this.userTxt.ShadowDecoration.Parent = this.userTxt;
             this.userTxt.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 7, 7);
-            this.userTxt.Size = new System.Drawing.Size(268, 41);
+            this.userTxt.Size = new System.Drawing.Size(357, 50);
             this.userTxt.TabIndex = 24;
             this.userTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.userTxt_KeyDown);
             // 
@@ -243,10 +245,9 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(419, 462);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(559, 569);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(185, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(220, 25);
             this.linkLabel1.TabIndex = 31;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Already have an account?";
@@ -258,11 +259,11 @@
             this.consEye.CheckedState.Parent = this.consEye;
             this.consEye.HoverState.Parent = this.consEye;
             this.consEye.Image = global::Translatify1.Properties.Resources.Invisible;
-            this.consEye.Location = new System.Drawing.Point(535, 315);
-            this.consEye.Margin = new System.Windows.Forms.Padding(2);
+            this.consEye.Location = new System.Drawing.Point(713, 388);
+            this.consEye.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.consEye.Name = "consEye";
             this.consEye.PressedState.Parent = this.consEye;
-            this.consEye.Size = new System.Drawing.Size(26, 20);
+            this.consEye.Size = new System.Drawing.Size(35, 25);
             this.consEye.TabIndex = 34;
             this.consEye.CheckedChanged += new System.EventHandler(this.consEye_CheckedChanged);
             // 
@@ -271,10 +272,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(258, 281);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(344, 346);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 20);
+            this.label4.Size = new System.Drawing.Size(165, 25);
             this.label4.TabIndex = 33;
             this.label4.Text = "Confirm Password";
             // 
@@ -297,7 +297,8 @@
             this.conPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.conPass.HoverState.Parent = this.conPass;
             this.conPass.IconRightSize = new System.Drawing.Size(30, 30);
-            this.conPass.Location = new System.Drawing.Point(262, 304);
+            this.conPass.Location = new System.Drawing.Point(349, 374);
+            this.conPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.conPass.Name = "conPass";
             this.conPass.PasswordChar = '\0';
             this.conPass.PlaceholderText = "";
@@ -306,16 +307,16 @@
             this.conPass.ShadowDecoration.Enabled = true;
             this.conPass.ShadowDecoration.Parent = this.conPass;
             this.conPass.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 7, 7);
-            this.conPass.Size = new System.Drawing.Size(268, 41);
+            this.conPass.Size = new System.Drawing.Size(357, 50);
             this.conPass.TabIndex = 32;
             this.conPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.conPass_KeyDown);
             // 
             // SignupForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(233)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(615, 491);
+            this.ClientSize = new System.Drawing.Size(820, 604);
             this.Controls.Add(this.consEye);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.conPass);
@@ -330,7 +331,8 @@
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SignupForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignupForm";

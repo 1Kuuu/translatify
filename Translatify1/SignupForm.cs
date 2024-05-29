@@ -121,5 +121,15 @@ namespace Translatify1
                 LoginBtn_Click(sender, e);
             }
         }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }
